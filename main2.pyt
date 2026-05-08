@@ -8,3 +8,9 @@ if money_collected > total_bill:
     print("They have extra money")
 else:
     print("They need more money")
+h=total_bill - money_collected
+k=money_collected - total_bill
+if total_bill > money_collected:
+    print(h,"is the money they need more")
+else:
+    print(k,"is extra money")
